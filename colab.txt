@@ -1,5 +1,9 @@
 transformers==5.3
-pysrt
-sentencex
+gradio==5.50.0
+pysrt>=1.1.2
+sentencex>=1.0.17
 faster-whisper==1.1.1
 ctranslate2==4.6.0
+
+#ctranslate2==3.24.0
+#ctranslate2==4.5.0
