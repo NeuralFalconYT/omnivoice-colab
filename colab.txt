@@ -1,0 +1,17 @@
+transformers==5.3
+pysrt
+sentencex
+faster-whisper==1.1.1
+ctranslate2==4.6.0
+
+#ctranslate2==3.24.0
+#ctranslate2==4.5.0
+#torch==2.8.0
+#torchaudio==2.8.0
+#transformers==5.3
+#accelerate
+#pydub
+#soundfile
+#numpy
+#gradio
+#hf_transfer
