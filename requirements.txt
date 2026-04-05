@@ -1,10 +1,15 @@
---extra-index-url https://download.pytorch.org/whl/cu128
 torch==2.8.0
 torchaudio==2.8.0
 transformers==5.3
-accelerate
-pydub
-soundfile
+accelerate>=1.13.0
+pydub>=0.25.1
+soundfile>=0.13.1
 numpy
-gradio
-hf_transfer
+gradio==5.50.0
+#for subtitle and asr 
+pysrt>=1.1.2
+sentencex>=1.0.17
+faster-whisper==1.1.1
+ctranslate2==4.6.0
+#ctranslate2==3.24.0
+#ctranslate2==4.5.0
