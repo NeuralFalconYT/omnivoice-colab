@@ -1,4 +1,4 @@
-# %cd /content/omnivoice-colab
+%cd /content/omnivoice-colab
 import os
 import sys
 import logging
@@ -260,8 +260,9 @@ def _gen_core(
     except Exception as e:
         return None, f"Error: {type(e).__name__}: {e}"
 
-    waveform = audio[0].squeeze(0).numpy()
-    waveform = (waveform * 32767).astype(np.int16)
+    # waveform = audio[0].squeeze(0).numpy()
+    # waveform = (waveform * 32767).astype(np.int16)
+    waveform = (audio[0] * 32767).astype(np.int16)
     return (sampling_rate, waveform), "Done."
 
 # ---------------------------------------------------------------------------
