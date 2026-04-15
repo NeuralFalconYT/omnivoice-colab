@@ -1,4 +1,4 @@
-%cd /content/omnivoice-colab
+# %cd /content/omnivoice-colab
 import os
 import sys
 import logging
